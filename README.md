@@ -1,8 +1,6 @@
-hay que instalar node.js la v12.19.0
-
 install node.js v 12.19.0
 
-then, open the terminal and change directory to: 
+then, open your terminal and change directory to: 
 
 ...\mvc\controlador\1-WebSocket  
 
