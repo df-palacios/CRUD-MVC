@@ -1,22 +1,21 @@
 hay que instalar node.js la v12.19.0
 
-luego de instalarlo
+install node.js v 12.19.0
 
-Hay que ejecutar enconsola estando dentro de la carpeta
+then, open the terminal and change directory to: 
 
 ...\mvc\controlador\1-WebSocket  
 
-el comando  "node testmvc.js"
+run  "node testmvc.js"
 
-luego hay que abrir el inicio.html en el navegador que esta en la carpeta vista
+then, open vista/inicio.html in your browser, 
 
-para las bases de datos se uso Msql
+mySQL was used for the database, you must import the .sql file inside the folder "modelo"
 
-se importa el sql que esta en la carpeta modelo
 
-para la conexion con la base de datos hay que modificar el archivo "tetsmvc.js"
+for the database connection, modify the file "tetsmvc.js"
 
-al inicio esta este codigo
+look at this code at the start: 
 
 var myConnect = mysql.createConnection({
     host: 'localhost',
@@ -25,14 +24,15 @@ var myConnect = mysql.createConnection({
     database: 'mvc'
 });
 
-esas credenciales tienes que cambiarlas por las que configuraste en tu base de datos
-si no configuraste deberia ser 
+you must change those credentials, user and password. 
+
+if you didn't set those values previously, the default are: 
 
 user: root
 password : ""
-datebase: El nombre de la bases de datos
+database: name of your database
 
-en este video aparece cómo correr el proyecto y se muestra funcionando:
+video: 
 
 https://drive.google.com/file/d/1RauC5geOuH07fzUPNwBI4H1z4qmrm8G3/view?usp=sharing
 
