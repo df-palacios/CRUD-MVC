@@ -1,3 +1,5 @@
+User registration system in a parking lot, backend made in node.js, SQL database, front end made in flat HTML+CSS+JS
+
 install node.js v 12.19.0
 
 then, open your terminal and change directory to: 
